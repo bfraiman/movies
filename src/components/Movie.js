@@ -8,6 +8,7 @@ const Movie = ({ data }) => {
       <img width="100px" height="140px" alt={data.title} src={src} />
       <div className="movie-overview">
         <p className="movie-overview-title">{data.title}</p>
+        <p className="movie-overview-vote_average">{data.vote_average}</p>
       </div>
     </div>
   );
@@ -16,10 +17,8 @@ const Movie = ({ data }) => {
 Movie.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
-    // overview: PropTypes.string.isRequired,
-    // vote_average: PropTypes.number.isRequired,
+    vote_average: PropTypes.number.isRequired,
     poster_path: PropTypes.string.isRequired,
-    // coverImage: PropTypes.string.isRequired,
   }).isRequired,
 };
 
