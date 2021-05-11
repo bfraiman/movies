@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="movies"
+  >
+    <div
+      class="movie"
+    >
+      <img
+        alt="Harry Potter and the Goblet of Fire"
+        src="https://image.tmdb.org/t/p/original//fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg"
+        width="200"
+      />
+    </div>
+    <div
+      class="movie"
+    >
+      <img
+        alt="Harry Potter and the Philosopher's Stone"
+        src="https://image.tmdb.org/t/p/original//wuMc08IPKEatf9rnMNXvIDxqP4W.jpg"
+        width="200"
+      />
+    </div>
+    <div
+      class="movie"
+    >
+      <img
+        alt="Harry Potter and the Chamber of Secrets"
+        src="https://image.tmdb.org/t/p/original//sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg"
+        width="200"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
