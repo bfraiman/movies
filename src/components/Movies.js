@@ -15,11 +15,15 @@ const Movies = ({ movies }) => {
     );
   }
 
-  if(isLoading){
+  if (isLoading) {
     return <h3>Cargando..</h3>;
   }
 
-  return <h3>{errorMessage || "No results"}</h3>;
+  if (errorMessage) {
+    return <h3>{errorMessage}</h3>;
+  }
+
+  return <h3>Oops! No results found</h3>;
 };
 
 Movies.propTypes = {
